@@ -7,7 +7,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 70px;
     background-color: aliceblue;
 }
 
@@ -32,26 +32,118 @@ li{
     padding: 10px;
 }
 
+.exemplo{
+    text-align: center;
+    padding: 0;
+    font-family: 'Modern Antiqua', cursive;
+}
 
 .exemplo li{
-    background-color: violet;
-    height: 200px;
-    width: 200px;
-    display: block;
-    margin-left: 20px;
+    background-color: lightgrey;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    margin-left: 100px;
+    border-radius: 10%;
+    color: green;
+    border: solid black 5px;
+}
+
+.exemplo li:nth-child(2){
+    color: yellow;
+    height: 50px;
+    width: 150px;
+}
+
+.exemplo li:last-child{
+    color: red;
+    height: 50px;
+    width: 150px;
+}
+
+.semana{
+    text-align: center;
+    padding: 0; 
+    font-family: 'Hanalei Fill', cursive;
     
 }
 
-li:nth-child(2){
-    background-color: #f4c141;
-    height: 200px;
-    width: 200px;
-    
+.semana li{
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 05%;
+    color: black;
+    border: solid black 3px;
 }
 
-li:last-child{
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+.semana li:nth-child(2){
+    border-radius: 10%; 
+    background-color: cornflowerblue;
 }
 
+.semana li:nth-child(3){
+    border-radius: 15%; 
+    background-color: cornflowerblue;
+}
+
+.semana li:nth-child(4){
+    border-radius: 20%; 
+    background-color: cornflowerblue;
+}
+
+.semana li:last-child{
+    border-radius: 25%; 
+    background-color: cornflowerblue;
+}
+
+.container ul{
+    display: flex;    
+}
+
+.fds li{
+    border: solid black 1px;
+    background-color: lightseagreen;
+    width: 200px;
+    height: 200px;
+    border-top-right-radius: 20%;
+    font-family: 'Anton', sans-serif;
+    color: black;
+}
+
+.fds{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bye{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -200px;
+}
+
+.zumbi{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 630px;
+    margin-top: -200px;
+}
+
+.marvel{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: -200px;
+}
+
+.imgs img{
+    border-radius: 25%;
+}
